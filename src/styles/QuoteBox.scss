@@ -1,0 +1,30 @@
+#quote-box {
+    border-radius: 3px; 
+}
+    #quote-text {
+        text-align: center;
+        width: 45rem;
+        height: auto;
+        font-size: 1.75rem;
+        font-weight: 500;
+    }
+    #quote-author {
+        width: 45rem;
+        height: auto;
+        text-align: right;
+        font-weight: 400;
+    }
+
+#button-wrapper {
+    display: inline-flex;
+
+    > button {
+        border-radius: 3px;
+        background-color: blue;
+        font-size: 1.6rem;
+
+        #btn-twitter {
+            justify-content: flex-start;
+        }
+    }
+}
