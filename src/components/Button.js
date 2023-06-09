@@ -2,7 +2,7 @@ import './../styles/Button.scss';
 
 const Button = ({ text, id }) => {
     return (
-        <button id={`button btn${id}`}>{text}</button>
+        <button id="btn">{text}</button>
     )
 }
 
