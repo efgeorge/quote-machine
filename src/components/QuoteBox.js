@@ -5,15 +5,15 @@ const QuoteBox = () => {
     return (
         <div id="quote-box">
             <div id="quote-text">
-                sdgdgdfgdf
+                Quote
             </div>
             <div id="quote-author">
-                dsds
+                Author
             </div>
             <div id="button-wrapper">
-                <Button text={"Twitter"} id={"-twitter"}/>
-                <Button text={"Tumblr"} id={"-tumblr"}/>
-                <Button text={"New quote"} id={"-new-quote"}/>
+                <Button text={"Twitter"} btnid={"tweet-quote"}/>
+                <Button text={"Tumblr"} btnid={"tumblr-quote"}/>
+                <Button text={"New quote"} btnid={"new-quote"} />
             </div>
         </div>
     )

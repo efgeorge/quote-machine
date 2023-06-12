@@ -1,8 +1,8 @@
 import './../styles/Button.scss';
 
-const Button = ({ text, id }) => {
+const Button = ({ text, btnid }) => {
     return (
-        <button id="btn">{text}</button>
+        <button id={btnid}>{text}</button>
     )
 }
 
