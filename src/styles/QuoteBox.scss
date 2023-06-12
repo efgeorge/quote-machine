@@ -4,6 +4,7 @@
     padding: 2rem;
 }
     #quote-text {
+        padding: 0 2rem 0 2rem;
         text-align: center;
         width: 45rem;
         height: auto;
@@ -11,6 +12,7 @@
         font-weight: 500;
     }
     #quote-author {
+        padding-top: 1rem;
         width: 45rem;
         height: auto;
         text-align: right;
@@ -25,15 +27,4 @@
     padding-bottom: 0.5rem;
     margin: 0.5rem;
     margin-bottom: 0;
-    
-
-    // > button {
-    //     border-radius: 3px;
-    //     background-color: blue;
-    //     font-size: 1.6rem;
-
-    //     #btn-twitter {
-    //         justify-content: flex-start;
-    //     }
-    // }
 }
