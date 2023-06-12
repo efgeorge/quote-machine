@@ -1,3 +1,5 @@
+@import 'styles/variables';
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,11 +27,19 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   display: flex;
-	line-height: 1;
+  line-height: 1;
   justify-content: center;
   align-items: center;
   height: 100vh;
   font-family: 'Raleway', sans-serif;
+  background-color: $color;
+  color: $color;
+
+  button {
+	background-color: $color;
+	color: #fff;
+
+  }
 }
 ol, ul {
 	list-style: none;

@@ -1,0 +1,5 @@
+// @mixin random-bgr($color) {
+//     #{$color}: rgb(random(255), random(255), random(255));
+// }
+
+$color: rgb(random(255), random(255), random(255));
