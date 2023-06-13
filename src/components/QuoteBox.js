@@ -10,7 +10,7 @@ const QuoteBox = ({}) => {
     ]
     
 
-    const [randomNumber, setRandomNumber] = useState(0);
+    const [randomNumber, setRandomNumber] = useState(Math.floor(Math.random() * quotes.length));
 
     const generateRandomNumberHandler = () => {
         const randomNumber = Math.floor(Math.random() * quotes.length);
