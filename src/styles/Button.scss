@@ -1,7 +1,30 @@
 #new-quote {
-    // background-color: ;
-    padding: 0.7rem;
+    background-color: #EA4C89;
     border-radius: 3px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.2rem;
+    font-weight: 500;
+    height: 3rem;
+    line-height: 2rem;
+    list-style: none;
     margin: auto;
+    outline: none;
+    padding: 0.7rem 1.2rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+#new-quote:hover,
+#new-quote:focus {
+    background-color: #F082AC;
 }

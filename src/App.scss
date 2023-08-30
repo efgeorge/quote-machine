@@ -32,6 +32,7 @@ body {
   align-items: center;
   height: 100vh;
   font-family: 'Raleway', sans-serif;
+  background-color: beige;
 
   button {
 	color: #fff;
@@ -52,4 +53,8 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+.App {
+	background-color: beige;
 }
