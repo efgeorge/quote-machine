@@ -1,9 +1,8 @@
 import { useState } from 'react';
 import './../styles/QuoteBox.scss';
 import Button from './Button';
-import useGenerateRandomColor from '../utils/useGenerateRandomColor';
 
-const QuoteBox = () => {
+const QuoteBox = ({ generateColor }) => {
     const quotes = [
         {quote: "Be yourself; everyone else is already taken.", author: "Oscar Wilde"},
         {quote: "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.", author: "Albert Einstein"},
@@ -11,7 +10,6 @@ const QuoteBox = () => {
     ]
     
     const [randomNumber, setRandomNumber] = useState(Math.floor(Math.random() * quotes.length));
-    const { color, generateColor } = useGenerateRandomColor();
 
     const generateRandomNumberHandler = () => {
         const randomNumber = Math.floor(Math.random() * quotes.length);
@@ -20,11 +18,11 @@ const QuoteBox = () => {
 
     const handleClick = () => {
         generateRandomNumberHandler();
-        generateColor();    
+        generateColor();
     }
 
     return (
-        <div id="quote-box" style={{backgroundColor: color, color: !color}}>
+        <div id="quote-box">
             <div id="quote-text">
                 {quotes[randomNumber].quote}
             </div>
