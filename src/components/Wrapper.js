@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './../styles/Wrapper.scss';
 import useGenerateRandomColor from '../utils/useGenerateRandomColor';
 import QuoteBox from "./QuoteBox";
